@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5e5;
+}
+main{
+    display: block;
+    font-family: sans-serif;
+    padding:2rem;
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+}
+.first-container{
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title{
+    color:rgb(95, 207, 244);
+    padding-bottom: .5rem;
+}
+.subtitle{
+    color:rgb(182, 235, 38);
+    padding-bottom: 0.5rem;
+}
+.text{
+    padding-bottom: 1.5rem;
+    line-height: 25px;
+}
+.second-container{
+    background-color:rgb(95, 207, 244) ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.first-subcontainer{
+    padding:1.5rem 0.5rem 1.5rem 1.5rem;
+    width: 50%;
+}
+.h4title{
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.bill{
+    color: white;
+}
+.bill strong{
+    font-size: 1.5rem;
+}
+.bill span{
+    color: #e5e5e5;
+    padding-left: 3px;
+}
+.desc{
+    color: white;
+    padding: 1.5rem 0;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 50%;
+    min-width: 100px;
+    max-width: 120px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 140, 4);
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.second-subcontainer{
+    background-color: rgba(0,0,0,0.1);
+    padding: 1.5rem 0.5rem 1.5rem 1.5rem;
+    width: 50%;
+}
+
+ul{
+    color: white;
+}
+ul li{
+    list-style: none;
+    line-height: 25px;
+}
+
+@media screen and (max-width:640px) {
+    .second-container{
+        flex-direction: column;
+    }
+    .first-subcontainer{
+        width: 100%;
+    }
+    .second-subcontainer{
+        width: 100%;
+    }
+    button{
+        width: 80%;
+        max-width: 200px;
+        min-width: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
